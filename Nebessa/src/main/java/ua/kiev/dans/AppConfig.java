@@ -119,7 +119,7 @@ public class AppConfig extends WebMvcConfigurerAdapter {
         mailSender.setHost("mx1.mirohost.net");
         mailSender.setPort(587);
         mailSender.setUsername("info@nebessa.net.ua");
-        mailSender.setPassword("Qaz123Wsx");
+        mailSender.setPassword("***********");
 
         Properties properties = mailSender.getJavaMailProperties();
         properties.put("mail.transport.protocol", "smtp");
